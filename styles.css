@@ -1,0 +1,121 @@
+.GameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+}
+
+h1 {
+    text-align: center;
+}
+
+.person {
+    position: relative;
+    height: 210px;
+    width: 71px;
+    bottom: 15%;
+}
+
+.head {
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.body,
+.handleft,
+.handright,
+.footleft,
+.footright {
+    position: relative;
+    border: 1px solid black;
+    height: 100px;
+    width: 0;
+    left: 35px;
+}
+
+.handleft,
+.footleft {
+    position: relative;
+    transform: rotate(45deg);
+    left: 17px;
+    height: 50px;
+}
+
+.handright,
+.footright {
+    position: relative;
+    transform: rotate(-45deg);
+    left: 53px;
+    height: 50px;
+}
+
+.handleft {
+    bottom: 110px;
+}
+
+.handright {
+    bottom: 162px;
+}
+
+.footleft {
+    bottom: 112px;
+}
+
+.footright {
+    bottom: 164px;
+}
+
+.poleContainer
+{
+    position: relative;
+    height: 310px;
+    width: 100px;
+    bottom: 15%;
+}
+.left
+{
+    position: relative;
+    border: 1px solid black;
+    height: 300px;
+    width: 0;
+}
+
+.top
+{
+    position: relative;
+    border: 1px solid black;
+    height: 0;
+    width: 135.5px;
+}
+
+.right
+{
+    position: relative;
+    border: 1px solid black;
+    height: 48px;
+    width: 0;
+    left: 136%;
+    bottom: 98%
+}
+
+.bottom
+{
+    position: relative;
+    border: 1px solid black;
+    height: 0;
+    width: 100px;
+    right: 50%;
+    bottom: 16%;
+}
+
+.WordContainer
+{
+    
+}
