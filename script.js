@@ -12,6 +12,7 @@ let head = document.querySelector(".head"),
 
 /**TODO: Code the hangman game, I have no idea how to do it
  * at the moment but I will see. When I have time.
+ * jnhjnhjbj
  */
 
 const wordArr = ["Word", "Sanga", "Fez", "ffrfrf", "dfdfd"]
